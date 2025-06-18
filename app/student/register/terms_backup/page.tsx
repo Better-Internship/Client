@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/design-system"
 import { Checkbox } from "@/components/ui/checkbox"
 import { ChevronLeft, FileText, ExternalLink } from "lucide-react"
 import Link from "next/link"

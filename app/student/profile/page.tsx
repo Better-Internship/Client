@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/components/design-system";
+import { Input } from "@/components/design-system";
 import { Badge } from "@/components/ui/badge";
 import { Checkbox } from "@/components/ui/checkbox";
 import {

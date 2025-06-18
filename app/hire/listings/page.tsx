@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState, useMemo, useCallback } from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/components/design-system";
+import { Input } from "@/components/design-system";
 import { Label } from "@/components/ui/label";
 
 import { BarChart3, Search, FileText, FileEdit, Filter, Plus } from "lucide-react";

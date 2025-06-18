@@ -19,7 +19,7 @@ import {
   PhilippinePeso,
   Clock,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/design-system";
 import {
   useJobs,
   useSavedJobs,

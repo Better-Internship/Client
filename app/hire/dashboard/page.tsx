@@ -2,8 +2,8 @@
 
 import { useState, useMemo, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/components/design-system";
+import { Input } from "@/components/design-system";
 import { Checkbox } from "@/components/ui/checkbox";
 import {
   Select,

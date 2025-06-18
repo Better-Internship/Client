@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/design-system";
 import { Badge } from "@/components/ui/badge";
 import { BookA, Calendar, Clock, Clipboard } from "lucide-react";
 import { useApplications } from "@/hooks/use-api";

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/design-system";
 import { ArrowLeft } from "lucide-react";
 import { useAuthContext } from "@/lib/ctx-auth";
 

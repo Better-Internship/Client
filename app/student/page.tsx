@@ -4,8 +4,8 @@ import { useRef, useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import type React from "react";
 import { Search, ChevronDown, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Button } from "@/components/design-system";
+import { Input } from "@/components/design-system";
 import JobScroller from "@/app/student/landing/job-scroller";
 import MobileJobScroller from "@/app/student/landing/mobile-job-scroller";
 import {

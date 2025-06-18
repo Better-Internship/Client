@@ -1,6 +1,6 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/design-system"
 import Link from "next/link"
 
 export default function DownloadPage() {
