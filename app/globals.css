@@ -47,6 +47,31 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
   }
+
+  /* Portal-specific theming */
+  [data-portal-student] {
+    --primary: 217 19% 45%;
+    --primary-foreground: 210 40% 98%;
+    --accent: 142 71% 45%;
+    --accent-foreground: 210 40% 98%;
+    --ring: 217 19% 45%;
+  }
+
+  [data-portal-hire] {
+    --primary: 262 83% 58%;
+    --primary-foreground: 210 40% 98%;
+    --accent: 45 93% 47%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --ring: 262 83% 58%;
+  }
+
+  [data-portal-school] {
+    --primary: 0 72% 51%;
+    --primary-foreground: 210 40% 98%;
+    --accent: 198 89% 48%;
+    --accent-foreground: 210 40% 98%;
+    --ring: 0 72% 51%;
+  }
 }
 
 @layer base {
@@ -55,6 +80,27 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Design System Component Utilities */
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2;
+  }
+
+  /* Loading Animation */
+  .animate-pulse-soft {
+    animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  @keyframes pulse-soft {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.8;
+    }
   }
 }
 
